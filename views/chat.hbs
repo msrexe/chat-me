@@ -1,0 +1,38 @@
+    <div style="height: 10%;" name="header" class="w3-margin w3-center w3-container w3-round-xlarge">
+        <h1><strong>Ch@Me</strong></h1>
+    </div>
+
+    <div style="height: 510px" class="w3-cell-row w3-margin" id="messagesAndChatInfos">
+        <div style="width: 17%;" class="w3-cell w3-round-xlarge w3-black w3-container" id="chatInfo">
+            <h3 style="text-align: center;" class="w3-border w3-round-xxlarge"><strong>ODA BİLGİLERİ</strong></h3>
+            <h6><strong>Oda Kodu : </strong>{{{roomcode}}}</h6>
+            <h6 id="activeusercount">Aktif Kullanıcı Sayısı :0</h6>
+            <h6 id="username"><strong>Kullanıcı adı : </strong>{{{username}}}</h6>
+        </div>
+        <div name="messages" style="width: 80%;" class="w3-cell w3-margin w3-container w3-round-xlarge w3-dark-grey">
+            <ul 
+            id="message-list" 
+            style="height:89%;text-align: left;overflow:auto;overflow-x: hidden;" 
+            class="w3-ul w3-margin w3-hoverable">
+            <!--Liste elemanları (Mesajlar)-->
+            </ul>
+        </div>
+    </div>
+
+    <div name="input" style="height: 10px;" class="w3-margin w3-container w3-center w3-round-xlarge">
+        <input type="text"
+        id="message-input"
+        style="width: 85%"
+        placeholder="Mesajını yaz" 
+        class="w3-cell w3-input w3-border w3-black">
+        <button id="sendButton" type="submit" onclick="messageSend()" style="width: 10%"
+        class="w3-border w3-green w3-button w3-round-xxlarge w3-cell">></button>
+    </div>
+<footer class="w3-margin w3-container">
+    <div class="w3-center">
+        <h4>Melih Sivri / @msrexe</h4>
+        <a href="https://www.twitter.com/msrexe" class="w3-xlarge fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/msrexe" class="w3-xlarge fa fa-linkedin"></a>
+        <a href="https://www.github.com/msrexe" class="w3-xlarge fa fa-github"></a>
+    </div>
+</footer>
